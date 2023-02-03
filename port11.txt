@@ -1,0 +1,119 @@
+
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRANAY MALHOTRA</title>
+    <style>
+            body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+  
+}
+
+footer {
+  background-color: lightgray;
+  padding: 20px;
+  text-align: center;
+}
+#projects{
+            text-align: center  ;
+}
+#center{
+    @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+    font-family: 'Itim', cursive;
+    color:  #3f0c0c;
+}
+#content{
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+    font-family: 'Dancing Script', cursive;
+    color: rgb(28 159 167);
+    size: 12px;
+
+}
+#list{
+        color: maroon;
+}
+#list a :hover{
+    color: crimson;
+        
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul id="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="https://mail.google.com/mail/" target="_blank">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>About Me</h1>
+        <p>Hello there. I am Pranay MALHOTRA. </p>
+      </section>
+      <div id="projects">
+        <h1 id="center">My Projects</h1>
+        <P id="content">I have gained a fair deal of experiance by being part of many projects that have come my way, be it a simple class projects with my friends or working with my society members in making various technical projects. Following are some glimpse of some of the projects I have taken part in.</P>
+        <ul>
+          <li>
+            <h2 id="center">Project 1</h2>
+            <p id="content">One of my greatest accomplishment is working with my entrepreneurship development cell for our own website.
+                I take great joy and pride by saying that i was one of the key members in front end development of our E-summit website. 
+            </p>
+          </li>
+         
+        </ul>
+      </div>
+      <section id="contact">
+        <h1>Contact Me</h1>
+        <div class="form">
+        <form action="submit-form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+    </div>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
